@@ -43,7 +43,7 @@
     "url": "https://github.com/tunnckoCore/filter-css-properties/blob/master/license.md"
   },
   "dependencies": {
-    "css-properties": "^0.1.0",
+    "css-properties": "^1.0.0",
     "micromatch": "^1.0.1"
   },
   "devDependencies": {
