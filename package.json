@@ -1,6 +1,6 @@
 {
   "name": "filter-css-properties",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Filter the list of all available (possible) 178+ css2/3 properties with glob patterns",
   "scripts": {
     "lint": "jshint index.js && jscs index.js --reporter inline",
