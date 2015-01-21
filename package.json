@@ -20,8 +20,9 @@
   "keywords": [
     "all",
     "available",
-    "c",
     "css",
+    "css2",
+    "css3",
     "filter",
     "filters",
     "glob",
@@ -34,16 +35,15 @@
     "property",
     "school",
     "standart",
-    "w",
-    "w-c",
-    "w-school"
+    "w3c",
+    "w3c-school"
   ],
   "license": {
     "type": "MIT",
     "url": "https://github.com/tunnckoCore/filter-css-properties/blob/master/license.md"
   },
   "dependencies": {
-    "css-properties": "0.0.1",
+    "css-properties": "^0.1.0",
     "micromatch": "^1.0.1"
   },
   "devDependencies": {
