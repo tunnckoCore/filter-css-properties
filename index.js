@@ -13,27 +13,28 @@ var micromatch = require('micromatch');
  * Filter given css properties or all possible
  * against glob patterns
  *
- * @param  {Array} `cssProperties`
+ * @param  {Array} `props`
  * @param  {Array|String} `patterns`
  * @return {Array}
  * @api public
  */
-module.exports = function filterCssProperties(cssProperties, patterns) {
-  if (!cssProperties && !patterns) {
+module.exports = function filterCdssProperties(props, patterns) {
+  if (!props && !patterns) {
     throw new Error('filter-css-properties: should have at least one argument');
   }
+
   if (!patterns) {
-    patterns = cssProperties;
-    cssProperties = require('css-properties')();
+    patterns = props;
+    props = require('css-properties')();
   }
 
-  if (!Array.isArray(cssProperties)) {
-    throw new TypeError('filter-css-properties: expect `cssProperties` be array')
+  if (!Array.isArray(props)) {
+    throw new TypeError('filter-css-properties: expect `props` be array');
   }
 
   if (typeof patterns === 'string') {
-    return micromatch.match(cssProperties, patterns);
+    return micromatch.match(props, patterns);
   }
 
-  return micromatch(cssProperties, patterns);
+  return micromatch(props, patterns);
 };
