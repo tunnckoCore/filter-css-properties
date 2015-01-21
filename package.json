@@ -20,6 +20,7 @@
   "keywords": [
     "all",
     "available",
+    "c",
     "css",
     "filter",
     "filters",
@@ -30,7 +31,12 @@
     "patterns",
     "possible",
     "properties",
-    "property"
+    "property",
+    "school",
+    "standart",
+    "w",
+    "w-c",
+    "w-school"
   ],
   "license": {
     "type": "MIT",
