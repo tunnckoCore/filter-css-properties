@@ -1,0 +1,48 @@
+{
+  "name": "filter-css-properties",
+  "version": "0.0.0",
+  "description": "Filter the list of all available (possible) 178+ css2/3 properties with glob patterns",
+  "scripts": {
+    "lint": "jshint index.js && jscs index.js --reporter inline",
+    "test": "mocha",
+    "test-cov": "istanbul cover _mocha",
+    "test-travis": "istanbul cover _mocha --report lcovonly"
+  },
+  "author": {
+    "name": "Charlike Make Reagent",
+    "email": "mameto_100@mail.bg",
+    "url": "https://github.com/tunnckoCore"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tunnckoCore/filter-css-properties.git"
+  },
+  "keywords": [
+    "all",
+    "available",
+    "css",
+    "filter",
+    "filters",
+    "glob",
+    "list",
+    "lists",
+    "pattern",
+    "patterns",
+    "possible",
+    "properties",
+    "property"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/tunnckoCore/filter-css-properties/blob/master/license.md"
+  },
+  "dependencies": {
+    "css-properties": "0.0.1",
+    "micromatch": "^1.0.1"
+  },
+  "devDependencies": {
+    "istanbul-harmony": "^0.3.1",
+    "mocha": "*",
+    "mocha-lcov-reporter": "^0.0.1"
+  }
+}
