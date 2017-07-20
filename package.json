@@ -47,8 +47,8 @@
     "micromatch": "^1.0.1"
   },
   "devDependencies": {
-    "istanbul-harmony": "^0.3.1",
-    "mocha": "*",
-    "mocha-lcov-reporter": "^0.0.1"
+    "istanbul-harmony": "0.3.16",
+    "mocha": "3.4.2",
+    "mocha-lcov-reporter": "0.0.1"
   }
 }
